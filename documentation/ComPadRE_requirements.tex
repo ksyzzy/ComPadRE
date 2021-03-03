@@ -1,0 +1,43 @@
+%% LyX 2.3.6.1 created this file.  For more info, see http://www.lyx.org/.
+%% Do not edit unless you really know what you are doing.
+\documentclass[english]{article}
+\usepackage[T1]{fontenc}
+\usepackage[latin9]{luainputenc}
+\usepackage{babel}
+\begin{document}
+
+\part{Functional requirements}
+\begin{enumerate}
+\item Ability to put in information such as: force value, beam width, lower
+cover, top cover, hole diameter, pad thickness, number of holes.
+\item Make calculations based on the selected type of the compression pad
+according to manufacturer's specification.
+\item Make several extra calculations for reference for the user to check
+and do not stop at the first one which meets requirements.
+\item Prepare checking and validation mechanism to see if all requirements
+are met.
+\item Present final dimensions of the compression pad and check if such
+pads are available to order from the specific manufacturer based on
+the information available in the provided product specification. 
+\item Ability to easily request an update of the pad specification if the
+manufacturer made any changes in the product. Also an ability to quickly
+and efortlessly 
+\item An ability to calculate and check if the rotation of the beam meets
+requirements.
+\item An ability to save current calculations to the file to quickly load
+it up.
+\item An ability to export current calculations as the report file in DOC
+or PDF format.
+\end{enumerate}
+
+\part{Non-functional requirements}
+\begin{enumerate}
+\item Application should be relatively lightweight.
+\item Preferably as stable as it can be without crashes and freezes.
+\item The current calculations should be saved as temporary data in case
+of unexpected program termination with the ability to immediately
+load it up on application startup.
+\item The UI should be as friendly as it can be.
+\end{enumerate}
+
+\end{document}
