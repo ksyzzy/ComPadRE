@@ -11,3 +11,4 @@ ComPadRE is a cross-platform desktop application which helps to choose an approp
 
 # Project's backlog
 You can find the project's backlog [here](https://trello.com/b/CA3bMqzG/application-for-compression-pads-calculation) on Trello.
+The workflow diagram is available [here](https://github.com/kushiji/ComPadRE/blob/main/diagrams/Trello_Workflow.svg).
